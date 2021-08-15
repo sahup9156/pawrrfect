@@ -1,1 +1,128 @@
+body {
+  background-image: linear-gradient(to right, #343436, #0d0908);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  color: white;
+}
 
+/* Navbar */
+
+.navbar {
+  padding: 0 6% 4.5rem 1%;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: white;
+  padding-left: 5%;
+}
+
+.menu-btn {
+  font-size: smaller;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-btn:hover {
+  color: black;
+}
+
+.offcanvas {
+  color: #f8f9fa;
+  background-color: #343a40;
+}
+.list-group .list-group-item {
+  background-color: #343a40;
+  color: grey;
+}
+
+.list-group .list-group-item:hover {
+  color: ivory;
+}
+
+.sign-log-button {
+  margin-top: 2%;
+  text-align: center;
+}
+
+/* Title section */
+
+h1 {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+}
+
+.word-column {
+  padding: 10% 6% 4%;
+  line-height: 2.5;
+}
+
+.fa-paw {
+  color: #ff9329;
+}
+
+/* Title Image */
+
+.title-image {
+  position: absolute;
+  width: 19%;
+  transform: rotate(-15deg);
+}
+
+.the-other-image {
+  width: 19%;
+  transform: rotate(15deg);
+  position: absolute;
+  z-index: -1;
+  right: 10%;
+}
+
+/* Enter Button */
+
+.enter-button {
+  margin: 5% 3% 5% 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+/* Media Query */
+
+@media (max-width: 1248px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image,
+  .the-other-image {
+    position: static;
+    transform: rotate(0deg);
+    width: 45%;
+  }
+
+  #footer {
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  .footer-icon {
+    margin-left: 3%;
+  }
+}
+
+/* Contact Info */
+
+#footer {
+  padding: 0 5%;
+}
+.footer-icon {
+  text-align: left;
+  padding: 0 1%;
+  font-size: 1.3rem;
+  color: #8f8f8f;
+}
+.footer-icon:link {
+  text-decoration: none;
+}
+.footer-icon:hover {
+  color: black;
+}
