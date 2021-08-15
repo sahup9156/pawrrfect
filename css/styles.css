@@ -50,11 +50,12 @@ body {
 h1 {
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 700;
+  line-height: 1.5;
 }
 
 .word-column {
   padding: 10% 6% 4%;
-  line-height: 2.5;
+  line-height: 1.5;
 }
 
 .fa-paw {
